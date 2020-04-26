@@ -8,11 +8,11 @@ const SuggestedProjectCard = () => {
             {/* Header */}
             <div className={"row no-gutters align-items-center"}>
                 <img src="assets/avatar_one.svg" />
-                <div className={"col mr-auto my-auto"}>
+                <div className={"col my-auto"}>
                     <p className={classes.avatarName}> Alice Martin</p>
                     <p className={classes.avatarTime}> 5 hours ago</p>
                 </div>
-                <div className={`col ${classes.chipGray} col-auto`}>
+                <div className={`${classes.chipGray} col-auto`}>
                     html
                 </div>
             </div>
