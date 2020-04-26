@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>projects</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(-1132.000000, -245.000000)">
+            <g id="Rank,-Projects" transform="translate(925.000000, 186.000000)">
+                <g id="projects" transform="translate(207.000000, 59.000000)">
+                    <circle id="Oval-8" fill="#6271D2" cx="16" cy="16" r="16"></circle>
+                    <path d="M13.1628801,23 L7,16.5 L13.1628801,10 L14.6073052,11.5234375 L9.88885007,16.5 L14.6073052,21.5019531 L13.1628801,23 Z M18.3926948,21.5019531 L23.1111499,16.5 L18.3926948,11.5234375 L19.8371199,10 L26,16.5 L19.8371199,23 L18.3926948,21.5019531 Z" id="Fill-1" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
