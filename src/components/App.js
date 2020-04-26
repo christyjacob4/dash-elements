@@ -12,8 +12,8 @@ const App = props => {
 
 
       <div class="container">
-        {/* NAVBAR STARTS */}
 
+        {/* NAVBAR STARTS */}
         <nav class="navbar p-0 py-4">
           <a class="navbar-brand align-bottom" href="#">
             <img src="assets/navbar_brand.svg" class="d-inline-block align-top" alt="" />
@@ -72,12 +72,15 @@ const App = props => {
         </div>
 
         {/* Second Row */}
-        <section class="py-5">
-
-          {/* <div class="row justify-content-between align-items-center no-gutters">
+        <section class="pt-5">
+          <div className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}>
             <h1 name="">Suggested Projects</h1>
-            <h3>VIEW ALL PROJECTS</h3>
-          </div> */}
+
+            <div class="row no-gutters">
+              <h3 class="mr-2">VIEW ALL PROJECTS</h3>
+              <img src="assets/chevron_arrow.svg" alt="" />
+            </div>
+          </div>
 
           <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -92,11 +95,45 @@ const App = props => {
           </div>
         </section>
 
-          <div class="row py-5">
-            <div class="col-12">
-                <Banner/>
+
+        {/* Banner */}
+        <div class="row no-gutters pt-5">
+          <div class="col-12">
+            <Banner />
+          </div>
+        </div>
+
+
+        {/* Third Row */}
+        <section class="pt-5">
+          <div class="row">
+
+            <div class="col-lg-8 col-md-6">
+              <div className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}>
+                <h1 name="">Activity</h1>
+
+                <div class="row no-gutters">
+                  <h3 class="mr-2">VIEW ALL ACTIVITY</h3>
+                  <img src="assets/chevron_arrow.svg" alt="" />
+                </div>
+              </div>
+              <SuggestedProjectCard />
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+            <div className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}>
+                <h1 name="">Top Earners</h1>
+
+                <div class="row no-gutters">
+                  <h3 class="mr-2">VIEW ALL</h3>
+                  <img src="assets/chevron_arrow.svg" alt="" />
+                </div>
+              </div>
+              <SuggestedProjectCard />
             </div>
           </div>
+        </section>
 
       </div>
 

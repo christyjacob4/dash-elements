@@ -15,16 +15,7 @@ nav > div > ul > li > a {
   color: #ffffff;
 }
 
-nav > div >  ul > li > a:hover {
-  opacity: 0.9;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 0.83;
-  letter-spacing: 0.25px;
-  color: #ffffff;
-}
-
-nav > div >  ul > li > a:active {
+nav > div >  ul > li > a:focus {
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
@@ -134,6 +125,32 @@ nav > a {
   color: #10c172;
 }
 
+/* Section header */
+.sectionHeader h1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: #42505c;
+}
+
+.sectionHeader h3 { 
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: 1.5px;
+  text-align: right;
+  color: #79828b;
+}
+
+.sectionHeader img {
+  width: 14px;
+  height: 14px;
+}
 
 /** Suggested Projects Card **/
 
@@ -218,7 +235,7 @@ nav > a {
   color: #ffffff;
 }
 
-.banner .button-outline {
+.banner .button-outline, .banner .button-outline:focus {
   height: min-content;
   border-radius: 6px;
   border: solid 1px #ffffff;
@@ -229,9 +246,15 @@ nav > a {
   color: #ffffff;
   background-color: transparent;
   padding: 13px 24px 16px 24px;
+  outline: none;
 }
 
-.banner .button-solid {
+.banner .button-outline:active {
+  background-color: #6574f6;
+  outline: none;
+}
+
+.banner .button-solid , .banner .button-solid:focus {
   height: min-content;
   border-radius: 6px;
   background-color: #6574d6;
@@ -242,4 +265,11 @@ nav > a {
   letter-spacing: 1.75px;
   color: #ffffff;
   padding: 13px 24px 16px 24px;
+  outline: none;
 }
+
+.banner .button-solid:active {
+  background-color: #6574f6;
+  outline: none;
+}
+
