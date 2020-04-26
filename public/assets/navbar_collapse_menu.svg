@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="dashboard-mobile" transform="translate(-15.000000, -28.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Header">
+                <g id="Group" transform="translate(16.000000, 28.000000)">
+                    <line x1="0.5" y1="1.5" x2="17.6172428" y2="1.5" id="Line"></line>
+                    <line x1="0.5" y1="8.5" x2="17.6172428" y2="8.5" id="Line-Copy"></line>
+                    <line x1="0.5" y1="15.5" x2="17.6172428" y2="15.5" id="Line-Copy-2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

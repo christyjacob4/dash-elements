@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="182px" height="39px" viewBox="0 0 182 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="32px" height="39px" viewBox="0 0 32 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>logo</title>
+    <title>icon</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M13,33 C20.1797017,33 26,19.9903987 26,12.8780488 C26,5.76569883 20.1797017,0 13,0 C5.82029825,0 0,5.76569883 0,12.8780488 C0,19.9903987 5.82029825,33 13,33 Z" id="path-1"></path>
@@ -15,14 +15,6 @@
         <g id="dashboard" transform="translate(-162.000000, -38.000000)">
             <g id="Header">
                 <g id="logo" transform="translate(165.000000, 39.000000)">
-                    <g id="type" transform="translate(42.000000, 5.000000)" fill="#FFFFFF" font-family="Helvetica" font-size="20" font-weight="normal">
-                        <text id="Dash">
-                            <tspan x="0" y="19">Dash</tspan>
-                        </text>
-                        <text id="Elements" opacity="0.5">
-                            <tspan x="53" y="19">Elements</tspan>
-                        </text>
-                    </g>
                     <g id="icon">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>

@@ -1,13 +1,39 @@
 .headerBg {
   height: 240px;
+  width: 100%;
   background-image: linear-gradient(247deg, #6a79dd 127%, #5866c3 -24%);
   z-index: -10;
-  position: static;
+  position: absolute;
 }
 
+nav > div > ul > li > a, nav > div >  ul > li > a:hover {
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+nav > div >  ul > li > a:active {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 0.83;
+  letter-spacing: 0.25px;
+  border-radius: 17px;
+  background-color: rgba(255,255,255,0.15);
+}
+
+nav > a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
 
 .card {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 8px;
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.06);
   background-color: #ffffff;
@@ -26,8 +52,6 @@
   background-color: rgba(121,130,139, 0.1);
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #8d99a4;
@@ -41,8 +65,6 @@
   background-color: rgba(98,113,210, 0.1) ;
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #6271d2;
@@ -57,8 +79,6 @@
   background-color: rgba(210,134,98, 0.1);
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #d28e62;
@@ -72,9 +92,7 @@
 /** Rank Card Specific styles **/
 .rankCard  h4 {
   font-size: 14px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: 800;
   line-height: 1.07;
   letter-spacing: 1.5px;
   color: #79828b;
@@ -83,9 +101,7 @@
 
 .rankCard  div[name=rank] {
   font-size: 30px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 0.75px;
   color: #42505c;
@@ -99,8 +115,6 @@
 .rankCard p {
   font-size: 14px;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #79828b;
@@ -123,8 +137,6 @@
 .projectCard .content {
   font-size: 16px;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.75;
   letter-spacing: normal;
   color: #42505c;
@@ -134,8 +146,6 @@
 .projectCard .avatarName {
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #42505c;
@@ -145,8 +155,6 @@
 .projectCard .avatarTime {
   font-size: 12px;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #79828b;
@@ -156,8 +164,6 @@
 .projectCard h4 {
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: right;
@@ -166,4 +172,65 @@
 
 .projectCard h4 span {
   color: #79828b;
+}
+
+
+/* Banner styles */
+
+.banner {
+  border-radius: 10px;
+  background-image: linear-gradient(251deg, #8f9df8 125%, #92a0ff -21%);
+  padding: 32px 71px 32px 46px;
+}
+
+.banner img {
+  height: 56px;
+  width: 56px;
+}
+
+.banner .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.banner p {
+  margin : 0px;
+}
+
+.banner .subtitle {
+  opacity: 0.75;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.banner .button-outline {
+  height: min-content;
+  border-radius: 6px;
+  border: solid 1px #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.07;
+  letter-spacing: 1.75px;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 13px 24px 16px 24px;
+}
+
+.banner .button-solid {
+  height: min-content;
+  border-radius: 6px;
+  background-color: #6574d6;
+  border : none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.07;
+  letter-spacing: 1.75px;
+  color: #ffffff;
+  padding: 13px 24px 16px 24px;
 }
