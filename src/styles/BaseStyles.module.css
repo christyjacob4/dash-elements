@@ -6,7 +6,7 @@
   position: absolute;
 }
 
-nav > div > ul > li > a {
+nav > div > ul > li > a, nav > div > ul > li > a:hover {
   opacity: 0.9;
   font-size: 18px;
   font-weight: 500;
@@ -136,7 +136,7 @@ nav > a {
   color: #42505c;
 }
 
-.sectionHeader h3 { 
+.sectionHeader a , .sectionHeader a:hover { 
   font-size: 14px;
   font-weight: 500;
   font-stretch: normal;
@@ -145,6 +145,7 @@ nav > a {
   letter-spacing: 1.5px;
   text-align: right;
   color: #79828b;
+  text-decoration: none;
 }
 
 .sectionHeader img {

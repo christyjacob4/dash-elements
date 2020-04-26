@@ -77,7 +77,7 @@ const App = props => {
             <h1 name="">Suggested Projects</h1>
 
             <div class="row no-gutters">
-              <h3 class="mr-2">VIEW ALL PROJECTS</h3>
+              <a href="#" class="mr-2">VIEW ALL PROJECTS</a>
               <img src="assets/chevron_arrow.svg" alt="" />
             </div>
           </div>
@@ -113,7 +113,7 @@ const App = props => {
                 <h1 name="">Activity</h1>
 
                 <div class="row no-gutters">
-                  <h3 class="mr-2">VIEW ALL ACTIVITY</h3>
+                  <a href="#" class="mr-2">VIEW ALL ACTIVITY</a>
                   <img src="assets/chevron_arrow.svg" alt="" />
                 </div>
               </div>
@@ -126,7 +126,7 @@ const App = props => {
                 <h1 name="">Top Earners</h1>
 
                 <div class="row no-gutters">
-                  <h3 class="mr-2">VIEW ALL</h3>
+                  <a href="#" class="mr-2">VIEW ALL</a>
                   <img src="assets/chevron_arrow.svg" alt="" />
                 </div>
               </div>
