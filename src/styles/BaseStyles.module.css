@@ -6,7 +6,16 @@
   position: absolute;
 }
 
-nav > div > ul > li > a, nav > div >  ul > li > a:hover {
+nav > div > ul > li > a {
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+nav > div >  ul > li > a:hover {
   opacity: 0.9;
   font-size: 18px;
   font-weight: 500;
@@ -18,7 +27,7 @@ nav > div > ul > li > a, nav > div >  ul > li > a:hover {
 nav > div >  ul > li > a:active {
   color: #ffffff;
   font-size: 18px;
-  font-weight: 650;
+  font-weight: 700;
   line-height: 0.83;
   letter-spacing: 0.25px;
   border-radius: 17px;
@@ -180,7 +189,6 @@ nav > a {
 .banner {
   border-radius: 10px;
   background-image: linear-gradient(251deg, #8f9df8 125%, #92a0ff -21%);
-  padding: 32px 71px 32px 46px;
 }
 
 .banner img {
@@ -194,6 +202,7 @@ nav > a {
   line-height: 1.04;
   letter-spacing: normal;
   color: #ffffff;
+  margin-bottom: 12px;
 }
 
 .banner p {
