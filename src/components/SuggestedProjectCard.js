@@ -1,32 +1,40 @@
 import React from "react";
 import classes from "../styles/BaseStyles.module.css";
 
-const SuggestedProjectCard = () => {
+const SuggestedProjectCard = ({
+  name,
+  time,
+  image,
+  language,
+  description,
+  eth,
+  bit,
+  price,
+}) => {
   return (
     <div className={`${classes.card} ${classes.projectCard}`}>
       {/* Header */}
       <div className={"row no-gutters align-items-center"}>
-        <img src="assets/avatar_one.svg" />
+        <img src={image} />
         <div className={"col my-auto"}>
-          <p className={classes.avatarName}> Alice Martin</p>
-          <p className={classes.avatarTime}> 5 hours ago</p>
+          <p className={classes.avatarName}> {name}</p>
+          <p className={classes.avatarTime}> {time}</p>
         </div>
-        <div className={`${classes.chipGray} col-auto`}>html</div>
+        <div className={`${classes.chipGray} col-auto`}>{language}</div>
       </div>
 
       {/* Content */}
       <p className={`${classes.content}`}>
-        Design and develop a website for an educational platform focusing on the
-        growth of children.
+        {description}
       </p>
 
       {/* Footer */}
       <hr className={classes.divider} />
       <div className={"row no-gutters align-items-center"}>
-        <div className={classes.chipBlue}>1.2 ETH</div>
-        <div className={`${classes.chipOrange} mr-auto`}>0.3 BTC</div>
+  <div className={classes.chipBlue}>{eth}</div>
+  <div className={`${classes.chipOrange} mr-auto`}>{bit}</div>
         <h4 className={"my-auto"}>
-          <span>$</span>760
+          <span>$</span>{price}
         </h4>
       </div>
     </div>
