@@ -97,6 +97,13 @@ const App = (props) => {
             </div>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer class="footer mt-auto py-5">
+          <div class="container text-center">
+            <span class="text-muted">Made with love by Christy</span>
+          </div>
+        </footer>
       </div>
     </div>
   );

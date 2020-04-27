@@ -6,7 +6,8 @@
   position: absolute;
 }
 
-nav > div > ul > li > a, nav > div > ul > li > a:hover {
+nav > div > ul > li > a,
+nav > div > ul > li > a:hover {
   opacity: 0.9;
   font-size: 18px;
   font-weight: 500;
@@ -15,10 +16,10 @@ nav > div > ul > li > a, nav > div > ul > li > a:hover {
   color: #ffffff;
 }
 
-nav > div >  ul > li > a:focus {
+nav > div > ul > li > a:focus {
   font-weight: 700;
   border-radius: 17px;
-  background-color: rgba(255,255,255,0.15);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 nav > a {
@@ -40,12 +41,12 @@ nav > a {
   width: 100%;
   border: solid 1px #e6ebf0;
   border-radius: 8px;
-  margin : 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 .chipGray {
   border-radius: 16px;
-  background-color: rgba(121,130,139, 0.1);
+  background-color: rgba(121, 130, 139, 0.1);
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
@@ -58,21 +59,20 @@ nav > a {
 
 .chipBlue {
   composes: chipGray;
-  background-color: rgba(98,113,210, 0.1) ;
+  background-color: rgba(98, 113, 210, 0.1);
   color: #6271d2;
   margin: 0px 10px 0px 0px;
 }
 
 .chipOrange {
   composes: chipGray;
-  background-color: rgba(210,134,98, 0.1);
+  background-color: rgba(210, 134, 98, 0.1);
   color: #d28e62;
   margin: 0px 10px 0px 0px;
 }
 
-
 /** Rank Card Specific styles **/
-.rankCard  h4 {
+.rankCard h4 {
   font-size: 14px;
   font-weight: 800;
   line-height: 1.07;
@@ -81,7 +81,7 @@ nav > a {
   margin-bottom: 16px;
 }
 
-.rankCard  div[name=rank] {
+.rankCard div[name="rank"] {
   font-size: 30px;
   font-weight: 600;
   line-height: normal;
@@ -118,7 +118,8 @@ nav > a {
   color: #42505c;
 }
 
-.sectionHeader a , .sectionHeader a:hover { 
+.sectionHeader a,
+.sectionHeader a:hover {
   font-size: 14px;
   font-weight: 500;
   font-stretch: normal;
@@ -183,7 +184,6 @@ nav > a {
   color: #79828b;
 }
 
-
 /* Banner styles */
 
 .banner {
@@ -206,7 +206,7 @@ nav > a {
 }
 
 .banner p {
-  margin : 0px;
+  margin: 0px;
 }
 
 .banner .subtitle {
@@ -218,7 +218,8 @@ nav > a {
   color: #ffffff;
 }
 
-.banner .button-outline, .banner .button-outline:focus {
+.banner .button-outline,
+.banner .button-outline:focus {
   height: min-content;
   border-radius: 6px;
   border: solid 1px #ffffff;
@@ -237,11 +238,12 @@ nav > a {
   outline: none;
 }
 
-.banner .button-solid , .banner .button-solid:focus {
+.banner .button-solid,
+.banner .button-solid:focus {
   height: min-content;
   border-radius: 6px;
   background-color: #6574d6;
-  border : none;
+  border: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.07;
@@ -255,7 +257,6 @@ nav > a {
   background-color: #6574f6;
   outline: none;
 }
-
 
 /* List Item styles */
 
@@ -296,4 +297,43 @@ nav > a {
 .listItem img {
   height: 48px;
   width: 48px;
+}
+
+/* Earnings card */
+
+.earners .title {
+  font-size: 14px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: 1.5px;
+  color: #79828b;
+  margin: 0px;
+}
+
+.earners .thisMonth,
+.earners .thisMonth:hover {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #79828b;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.earners .allTime,
+.earners .allTime:hover {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6271d2;
+  margin: 0px;
+  text-decoration: none;
 }

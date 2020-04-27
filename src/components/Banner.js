@@ -18,13 +18,13 @@ const Banner = () => {
         </div>
 
         <div className="col-lg-4  justify-content-end my-3">
-          <div className="row no-gutters justify-content-md-around justify-content-sm-between">
-            <div className="col-sm-12 col-md-auto">
+          <div className="row no-gutters justify-content-around">
+            <div className="col-auto">
               <button className={`${classes["button-outline"]}`}>
                 REMIND LATER
               </button>
             </div>
-            <div className="col-sm-12 col-md-auto">
+            <div className="col-auto">
               <button className={`${classes["button-solid"]}`}>JOIN NOW</button>
             </div>
           </div>
