@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import Earners from "./Earners";
 import { CardItems } from "./data";
 import Earnings from "./Earnings";
+import Recent from "./Recent";
 
 const App = (props) => {
   return (
@@ -20,7 +21,7 @@ const App = (props) => {
 
         {/* First row */}
         <div class="row">
-          <div class="col-12 col-lg-8 mb-4 mb-lg-0">
+          <div class="col-lg-8 mb-4 mb-lg-0">
             <Earnings />
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
@@ -79,7 +80,7 @@ const App = (props) => {
                   <img src="assets/chevron_arrow.svg" alt="" />
                 </div>
               </div>
-              <Rank />
+              <Recent/>
             </div>
 
             {/* Right Side */}

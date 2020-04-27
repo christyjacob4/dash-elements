@@ -298,9 +298,54 @@ nav > a {
   width: 48px;
 }
 
+/* List Item Detail */
+.listItemDetail img {
+  height: 48px;
+  width: 48px;
+}
+
+.listItemDetail p {
+  margin : 0px 0px 0px 0px;
+}
+
+.listItemDetail p.name {
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #42505c;
+}
+
+.listItemDetail p.description {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #79828b;
+}
+
+.listItemDetail p.amount {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #42505c;
+}
+
+.listItemDetail span.amount {
+  color: #79828b;
+}
+
+
 /* Top Earners card */
 
-.earners .title {
+.earners p.title {
   font-size: 14px;
   font-weight: 800;
   font-stretch: normal;
@@ -339,7 +384,6 @@ nav > a {
 
 
 /* Earnings card */
-
 .earningsCard p.title {
     font-size: 14px;
     font-weight: 800;
@@ -377,4 +421,16 @@ nav > a {
 
 .earningsCard span.delta {
   color: #10c176;
+}
+
+/* Recents Card */
+.recent p.title {
+  font-size: 14px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: 1.5px;
+  color: #79828b;
+  margin: 0px;
 }

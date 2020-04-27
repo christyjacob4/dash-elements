@@ -16,4 +16,24 @@ const ListItem = ({ name, amount, image, index }) => {
   );
 };
 
-export default ListItem;
+const ListItemDetail = () => {
+  return (
+    <div className={`${classes.listItemDetail}`}>
+      <div className="row justify-content-start align-items-center no-gutters">
+        <img class="ml-3" src="assets/avatar_daniel.svg" alt="" />
+        <div class="col ml-4">
+          <p className={`${classes.name}`}>Daniel Belu</p>
+          <p className={`${classes.description}`}>Recieved $760 for a Ruby project.</p>
+          <div className="row align-items-center no-gutters">
+            <div className={classes.chipBlue}>0.9087 ETH</div>
+            <p className={classes.amount}><span className={classes.amount}>$</span>2878.90</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  );
+}
+
+export {ListItem, ListItemDetail};

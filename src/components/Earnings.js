@@ -7,9 +7,8 @@ const Earnings = () => {
     <div className={`${classes.card} ${classes.earningsCard} p-3 p-lg-4`}>
       <div className={"row no-gutters"}>
 
-
           {/* Left column */}
-        <div className={"col-3"}>
+        <div className={"col-12 col-lg-3"}>
           <p className={classes.title}>EARNINGS</p>
           <p className={classes.amount}><span className={classes.amount}>$</span>2878.90</p>
           <p className={classes.delta}> <span className={classes.delta} >+42</span> since last week</p>
@@ -17,9 +16,8 @@ const Earnings = () => {
           <div className={`${classes.chipOrange} mt-3`}>0.5 BTC</div>
         </div>
 
-
           {/* Right column */}
-        <div className={"col-9"}>
+        <div className={"col-12 col-lg-9"}>
           <LineChart/>
         </div>
 

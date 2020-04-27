@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../styles/BaseStyles.module.css";
-import ListItem from "./ListItem";
+import {ListItem} from "./ListItem";
 import { Items } from "./data";
 
 const Earners = () => {

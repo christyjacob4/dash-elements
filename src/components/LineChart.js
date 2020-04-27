@@ -1,16 +1,8 @@
 import React from "react";
 import { ResponsiveLine } from "@nivo/line";
-import {
-  generateSeries,
-  generateSerie,
-  generateStackData,
-  generateDayCounts,
-  generateDrinkStats,
-} from "@nivo/generators";
+import { generateDrinkStats } from "@nivo/generators";
 
 const data = generateDrinkStats(10);
-
-console.log(data);
 
 // make sure parent container have a defined height when using
 // responsive component, otherwise height will be 0 and
@@ -20,9 +12,7 @@ console.log(data);
 const LineChart = () => (
   <ResponsiveLine
     data={data.filter((d) => ["rhum"].includes(d.id))}
-    axisTop={null}
-    axisRight={null}
-    margin={{ top: 10, right: 10, bottom: 20, left: 25 }}
+    margin={{ top: 20, right: 10, bottom: 30, left: 40 }}
     xScale={{ type: "point" }}
     yScale={{
       type: "linear",
@@ -31,38 +21,56 @@ const LineChart = () => (
       stacked: true,
       reverse: false,
     }}
+    axisTop={null}
+    axisRight={null}
     axisBottom={{
-      orient: "bottom",
-      tickSize: 5,
-      tickPadding: 0,
+      tickSize: 0,
+      tickPadding: 15,
       tickRotation: 0,
     }}
     axisLeft={{
-      orient: "left",
       tickSize: 0,
-      tickPadding: 10,
+      tickPadding: 15,
       tickRotation: 0,
-      legend: "count",
-      legendOffset: -40,
-      legendPosition: "middle",
     }}
+
+
+    enableSlices="x"
+    sliceTooltip={({ slice }) => {
+      return (
+        <div
+          style={{
+            background: "white",
+            borderRadius: "20px",
+            border: "1px solid #6271d2",
+          }}
+        >
+          {slice.points.map((point) => (
+            <div
+              key={point.id}
+              style={{
+                color: "#42505c",
+                padding: "3px 16px 3px 16px",
+                fontWeight : "800"
+              }}
+            >
+              $ {point.data.yFormatted}
+            </div>
+          ))}
+        </div>
+      );
+    }}
+
+
     useMesh={true}
-    lineWidth={3}
+    lineWidth={2}
     curve="linear"
     colors={["#6271d2"]}
-    
     enableGridX={false}
     enableGridY={false}
-
-    pointSize={4}
-    pointColor="white"
+    pointSize={8}
     pointBorderWidth={2}
-    pointBorderColor={{ from: "serieColor" }}
-    pointLabel="y"
-    pointLabelYOffset={-12}
-
-    enableCrosshair={false}
-
+    enableCrosshair={true}
     motionStiffness={200}
     motionDamping={20}
   />
