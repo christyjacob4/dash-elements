@@ -16,11 +16,7 @@ nav > div > ul > li > a, nav > div > ul > li > a:hover {
 }
 
 nav > div >  ul > li > a:focus {
-  color: #ffffff;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 0.83;
-  letter-spacing: 0.25px;
   border-radius: 17px;
   background-color: rgba(255,255,255,0.15);
 }
@@ -61,31 +57,17 @@ nav > a {
 }
 
 .chipBlue {
-  border-radius: 16px;
+  composes: chipGray;
   background-color: rgba(98,113,210, 0.1) ;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: normal;
   color: #6271d2;
-  padding: 4px 12px 7px 12px !important;
   margin: 0px 10px 0px 0px;
-  width: fit-content;
-  height: fit-content;
 }
 
 .chipOrange {
-  border-radius: 16px;
+  composes: chipGray;
   background-color: rgba(210,134,98, 0.1);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: normal;
   color: #d28e62;
-  padding: 4px 12px 7px 12px !important;
   margin: 0px 10px 0px 0px;
-  width: fit-content;
-  height: fit-content;
 }
 
 
@@ -172,7 +154,7 @@ nav > a {
 
 .projectCard .avatarName {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: normal;
   color: #42505c;
@@ -274,3 +256,44 @@ nav > a {
   outline: none;
 }
 
+
+/* List Item styles */
+
+.listItem p {
+  margin: 0px 0px 0px 0px;
+}
+
+.listItem p.index {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #42505c;
+}
+
+.listItem p.name {
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #42505c;
+}
+
+.listItem p.amount {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #79828b;
+}
+
+.listItem img {
+  height: 48px;
+  width: 48px;
+}
