@@ -3,7 +3,7 @@ import classes from "../styles/BaseStyles.module.css";
 
 const Banner = () => {
   return (
-    <div className={`${classes.card} ${classes.banner}`}>
+    <div className={`${classes.card} ${classes.banner} p-3 p-lg-4`}>
       <div class="row no-gutters align-items-center justify-content-around">
         <div className="text-center my-3">
           <img src="assets/slack_icon.svg" alt="" />

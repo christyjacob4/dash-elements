@@ -12,7 +12,7 @@ const SuggestedProjectCard = ({
   price,
 }) => {
   return (
-    <div className={`${classes.card} ${classes.projectCard}`}>
+    <div className={`${classes.card} ${classes.projectCard} p-3 p-lg-4`}>
       {/* Header */}
       <div className={"row no-gutters align-items-center"}>
         <img src={image} />

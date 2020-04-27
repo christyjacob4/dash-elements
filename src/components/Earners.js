@@ -5,7 +5,7 @@ import { Items } from "./data";
 
 const Earners = () => {
   return (
-    <div className={`${classes.card} ${classes.earners}`}>
+    <div className={`${classes.card} ${classes.earners} p-3 p-lg-4`}>
       <header>
         <div className="row justify-content-between align-items-center no-gutters pb-4">
           <p className={classes.title}>RANKINGS</p>
