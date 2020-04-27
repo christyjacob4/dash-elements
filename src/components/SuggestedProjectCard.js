@@ -24,17 +24,16 @@ const SuggestedProjectCard = ({
       </div>
 
       {/* Content */}
-      <p className={`${classes.content}`}>
-        {description}
-      </p>
+      <p className={`${classes.content}`}>{description}</p>
 
       {/* Footer */}
       <hr className={classes.divider} />
       <div className={"row no-gutters align-items-center"}>
-  <div className={classes.chipBlue}>{eth}</div>
-  <div className={`${classes.chipOrange} mr-auto`}>{bit}</div>
+        <div className={classes.chipBlue}>{eth}</div>
+        <div className={`${classes.chipOrange} mr-auto`}>{bit}</div>
         <h4 className={"my-auto"}>
-          <span>$</span>{price}
+          <span>$</span>
+          {price}
         </h4>
       </div>
     </div>

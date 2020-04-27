@@ -298,7 +298,7 @@ nav > a {
   width: 48px;
 }
 
-/* Earnings card */
+/* Top Earners card */
 
 .earners .title {
   font-size: 14px;
@@ -335,4 +335,46 @@ nav > a {
   color: #6271d2;
   margin: 0px;
   text-decoration: none;
+}
+
+
+/* Earnings card */
+
+.earningsCard p.title {
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: 1.5px;
+    color: #79828b;
+}
+
+.earningsCard p.amount {
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #42505c;
+}
+
+.earningsCard span.amount{
+  font-weight: normal;
+  color: #79828b;
+}
+
+.earningsCard p.delta {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #79828b;
+}
+
+.earningsCard span.delta {
+  color: #10c176;
 }

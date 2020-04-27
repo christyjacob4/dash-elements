@@ -6,6 +6,7 @@ import classes from "../styles/BaseStyles.module.css";
 import Navbar from "./Navbar";
 import Earners from "./Earners";
 import { CardItems } from "./data";
+import Earnings from "./Earnings";
 
 const App = (props) => {
   return (
@@ -19,8 +20,8 @@ const App = (props) => {
 
         {/* First row */}
         <div class="row">
-          <div class="col-lg-8 mb-4 mb-lg-0">
-            <Rank />
+          <div class="col-12 col-lg-8 mb-4 mb-lg-0">
+            <Earnings />
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
             <Rank />
