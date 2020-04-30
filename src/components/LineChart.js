@@ -4,6 +4,47 @@ import { generateDrinkStats } from "@nivo/generators";
 
 const data = generateDrinkStats(10);
 
+const customBottomTick = tick => {
+
+  return (
+      <g transform={`translate(${tick.x},${tick.y + 22})`}>
+          <text
+              textAnchor="middle"
+              dominantBaseline="middle"
+              transform="upppercase"
+              style={{
+                fontSize: 11,
+                fill: '#79828b',
+                textTransform :"initial"
+              }}
+          >
+              {tick.value}
+          </text>
+      </g>
+  )
+}
+
+const customLeftTick = tick => {
+
+  return (
+      <g transform={`translate(${tick.x - 22},${tick.y})`}>
+          <text
+              textAnchor="middle"
+              dominantBaseline="middle"
+              transform="upppercase"
+              style={{
+                fontSize: 11,
+                fill: '#79828b',
+                textTransform :"initial"
+              }}
+          >
+             $ {tick.value}
+          </text>
+      </g>
+  )
+}
+
+
 // make sure parent container have a defined height when using
 // responsive component, otherwise height will be 0 and
 // no chart will be rendered.
@@ -13,6 +54,7 @@ const LineChart = () => (
   <ResponsiveLine
     data={data.filter((d) => ["rhum"].includes(d.id))}
     margin={{ top: 20, right: 10, bottom: 30, left: 40 }}
+    
     xScale={{ type: "point" }}
     yScale={{
       type: "linear",
@@ -21,14 +63,22 @@ const LineChart = () => (
       stacked: true,
       reverse: false,
     }}
+
+    gridYValues={[100, 150, 200, 250]}
+
+
     axisTop={null}
     axisRight={null}
     axisBottom={{
+      renderTick:customBottomTick
+,
       tickSize: 0,
       tickPadding: 15,
       tickRotation: 0,
     }}
     axisLeft={{
+      renderTick : customLeftTick,
+      tickValues: [10, 20, 30, 40, 50],
       tickSize: 0,
       tickPadding: 15,
       tickRotation: 0,

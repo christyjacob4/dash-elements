@@ -20,7 +20,7 @@ const App = (props) => {
         {/* NAVBAR ENDS */}
 
         {/* First row */}
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-lg-8 mb-4 mb-lg-0">
             <Earnings />
           </div>
@@ -31,7 +31,7 @@ const App = (props) => {
         {/* First Row ENDS */}
 
         {/* Second Row */}
-        <section class="mt-lg-5">
+        {/* <section class="mt-lg-5">
           <div
             className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} mb-3`}
           >
@@ -52,21 +52,21 @@ const App = (props) => {
               </div>
             )}
           </div>
-        </section>
+        </section> */}
         {/* Second Row ENDS*/}
 
         {/* Banner */}
-        <div class="row no-gutters mt-lg-5 mt-3">
+        {/* <div class="row no-gutters mt-lg-5 mt-3">
           <div class="col-12 mb-4 mb-lg-0">
             <Banner />
           </div>
-        </div>
+        </div> */}
         {/* Banner ENDS */}
 
         {/* Third Row */}
-        <section class="mt-lg-5">
+        {/* <section class="mt-lg-5">
           <div class="row">
-            {/* left side */}
+            
             <div class="col-lg-8 col-md-6">
               <div
                 className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}
@@ -83,7 +83,7 @@ const App = (props) => {
               <Recent/>
             </div>
 
-            {/* Right Side */}
+            
             <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
               <div
                 className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}
@@ -99,15 +99,15 @@ const App = (props) => {
               <Earners />
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Third Row ENDS */}
 
         {/* Footer */}
-        <footer class="footer mt-auto py-5">
+        {/* <footer class="footer mt-auto py-5">
           <div class="container text-center">
             <span class="text-muted">Made with love by Christy</span>
           </div>
-        </footer>
+        </footer> */}
         {/* Footer ENDS */}
       </div>
     </div>

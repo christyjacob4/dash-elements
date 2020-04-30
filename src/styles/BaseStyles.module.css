@@ -1,9 +1,13 @@
 .headerBg {
-  height: 240px;
+  height: var(--header-height);
   width: 100%;
   background-image: linear-gradient(247deg, #6a79dd 127%, #5866c3 -24%);
   z-index: -10;
   position: absolute;
+}
+
+p {
+  margin: 0px 0px 0px 0px;
 }
 
 nav > div > ul > li > a,
@@ -31,9 +35,30 @@ nav > a {
 }
 
 .card {
-  border-radius: 8px;
+  border-radius: var(--card-border-radius);
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.06);
-  background-color: #ffffff;
+  background-color: var(--card-bg-color);
+}
+
+p.title {
+  font-size: 14px;
+  font-weight: var(--card-title-fw);
+  line-height: 1.07;
+  letter-spacing: 1.5px;
+  color: #79828b;
+}
+
+p.emphasis {
+  font-size: 30px;
+  font-weight: var(--card-emphasis-fw);
+  letter-spacing: 0.75px;
+  color: #42505c;
+}
+
+p.subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  color: #79828b;
 }
 
 .divider {
@@ -44,12 +69,10 @@ nav > a {
 }
 
 .chipGray {
-  border-radius: 16px;
+  border-radius: var(--chip-border-radius);
   background-color: rgba(121, 130, 139, 0.1);
   font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: normal;
+  font-weight: var(--chip-fw);
   color: #8d99a4;
   padding: 4px 12px 7px 12px !important;
   width: fit-content;
@@ -60,51 +83,34 @@ nav > a {
   composes: chipGray;
   background-color: rgba(98, 113, 210, 0.1);
   color: #6271d2;
-  margin: 0px 10px 0px 0px;
 }
 
 .chipOrange {
   composes: chipGray;
   background-color: rgba(210, 134, 98, 0.1);
   color: #d28e62;
-  margin: 0px 10px 0px 0px;
 }
 
 /** Rank Card Specific styles **/
-.rankCard h4 {
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.07;
-  letter-spacing: 1.5px;
-  color: #79828b;
-  margin-bottom: 16px;
-}
-
-.rankCard div[name="rank"] {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.75px;
-  color: #42505c;
-}
-
 .rankCard img {
   width: 32px;
   height: 32px;
 }
 
-.rankCard p {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #79828b;
-  margin-bottom: 0px;
-}
-
 .rankCard p span {
   color: #10c172;
 }
+
+/* Earnings card */
+.earningsCard p.emphasis span{
+  font-weight: normal;
+  color: #79828b;
+}
+
+.earningsCard p.subtitle span {
+  color: #10c176;
+}
+
 
 /* Section header */
 .sectionHeader h1 {
@@ -380,47 +386,6 @@ nav > a {
   color: #6271d2;
   margin: 0px;
   text-decoration: none;
-}
-
-
-/* Earnings card */
-.earningsCard p.title {
-    font-size: 14px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.07;
-    letter-spacing: 1.5px;
-    color: #79828b;
-}
-
-.earningsCard p.amount {
-    font-size: 30px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    color: #42505c;
-}
-
-.earningsCard span.amount{
-  font-weight: normal;
-  color: #79828b;
-}
-
-.earningsCard p.delta {
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #79828b;
-}
-
-.earningsCard span.delta {
-  color: #10c176;
 }
 
 /* Recents Card */
