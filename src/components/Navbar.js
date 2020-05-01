@@ -1,74 +1,33 @@
 import React from "react";
+import classes from '../styles/BaseStyles.module.css'
 
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar p-0 py-4">
-        <a class="navbar-brand align-bottom" href="#">
-          <img
-            src="assets/navbar_brand.svg"
-            class="d-inline-block align-top"
-            alt=""
-          />
-          <span class="ml-2">Dash</span> Elements
-        </a>
+      <nav className="navbar navbar-expand-md navbar-dark px-0 pt-3 pt-md-5 justify-content-start align-items-baseline">
+            <button className={`navbar-toggler ${classes.collapseButton} p-0`} data-toggle="collapse" data-target="#collapse-target">
+              <img src="assets/navbar_collapse_menu.svg"></img>
+            </button>
 
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <img src="assets/notification_icon.svg" alt="" />
+            <a href="#" className="navbar-brand ml-3 ml-md-0">
+              <img src="assets/navbar_brand.svg" alt=""/>
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Alex Doe
-            </a>
-          </li>
-        </ul>
+
+            <span className="navbar-text d-none d-md-inline">Dash Elements</span>
+
       </nav>
 
-      <nav class="navbar navbar-expand-lg p-0 pb-5">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <img src="assets/navbar_collapse_menu.svg"></img>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                My Projects
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Payments
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Activity
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Settings
-              </a>
-            </li>
+      <nav className="navbar navbar-expand-md navbar-dark sticky-top px-0">
+        <div id="collapse-target" className="collapse navbar-collapse">
+          <ul className="navbar-nav">
+            <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">My Projects</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">Payments</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">Activity</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">Settings</a></li>
           </ul>
         </div>
+
       </nav>
     </div>
   );

@@ -14,7 +14,7 @@ const App = (props) => {
     <div>
       <div className={`${classes.headerBg} position-absolute`}></div>
 
-      <div class="container">
+      <div className="container">
         {/* NAVBAR STARTS */}
         <Navbar />
         {/* NAVBAR ENDS */}
@@ -31,17 +31,15 @@ const App = (props) => {
         {/* First Row ENDS */}
 
         {/* Second Row */}
-        {/* <section class="mt-lg-5">
-          <div
-            className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} mb-3`}
-          >
-            <h1 name="">Suggested Projects</h1>
+        <section class="mt-lg-5">
 
+          <div className={`row justify-content-between align-items-baseline no-gutters mb-4`}>
+            <p className={classes.heading}>Suggested Projects</p>
             <div class="row no-gutters">
-              <a href="#" class="mr-2">
+              <a href="#" className={`${classes.sectionHeader} mr-2`}>
                 VIEW ALL PROJECTS
               </a>
-              <img src="assets/chevron_arrow.svg" alt="" />
+              <img src="assets/chevron_arrow.svg" alt="" className={classes.sectionHeader}/>
             </div>
           </div>
 
@@ -52,7 +50,7 @@ const App = (props) => {
               </div>
             )}
           </div>
-        </section> */}
+        </section>
         {/* Second Row ENDS*/}
 
         {/* Banner */}

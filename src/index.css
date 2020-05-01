@@ -18,7 +18,7 @@ code {
 :root {
   --global_font: 'Poppins', sans-serif;
   --header-height: 240px;
-  --card-border-radius: 8px;
+  --card-border-radius: 10px;
   --chip-border-radius: 16px;
   --card-bg-color: #ffffff;
   --card-title-fw: 500;
