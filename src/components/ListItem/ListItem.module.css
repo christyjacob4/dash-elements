@@ -1,0 +1,51 @@
+/* List Item styles */
+
+p.index {
+  font-size: 20px;
+  font-weight: 600;
+  color: #42505c;
+}
+
+p.name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: #42505c;
+}
+
+p.amount {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #79828b;
+}
+
+img.avatar {
+  height: var(--avatar-image-size);
+  width: var(--avatar-image-size);
+}
+
+img.paid {
+  height: 32px;
+  width: 32px;
+  margin-right: -6px;
+}
+
+
+/* List Item Detail */
+p.description {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #79828b;
+}
+
+p.time {
+  font-size: 12px;
+  color: #79828b;
+
+}

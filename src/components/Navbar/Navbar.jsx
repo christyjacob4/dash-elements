@@ -1,11 +1,11 @@
 import React from "react";
-import classes from '../styles/BaseStyles.module.css'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-md navbar-dark px-0 pt-3 pt-md-5 justify-content-start align-items-baseline">
-            <button className={`navbar-toggler ${classes.collapseButton} p-0`} data-toggle="collapse" data-target="#collapse-target">
+            <button className={`navbar-toggler ${styles.collapseButton} p-0`} data-toggle="collapse" data-target="#collapse-target">
               <img src="assets/navbar_collapse_menu.svg"></img>
             </button>
 

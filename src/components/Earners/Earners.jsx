@@ -1,19 +1,20 @@
 import React from "react";
-import classes from "../styles/BaseStyles.module.css";
-import {ListItem} from "./ListItem";
-import { Items } from "./data";
+import globals from "../../styles/BaseStyles.module.css";
+import styles from "./Earners.module.css"
+import {ListItem} from "../ListItem/ListItem";
+import { Items } from "../data";
 
 const Earners = () => {
   return (
-    <div className={`${classes.card} ${classes.earners} p-3 p-lg-4`}>
+    <div className={`${globals.card} p-3 p-lg-4`}>
       <header>
         <div className="row justify-content-between align-items-center no-gutters pb-4">
-          <p className={classes.title}>RANKINGS</p>
+          <p className={globals.title}>RANKINGS</p>
           <div>
-            <a className={`${classes.thisMonth} mr-2`} href="#">
+            <a className={`${styles.thisMonth} mr-2`} href="#">
               This month
             </a>
-            <a className={classes.allTime} href="#">
+            <a className={styles.allTime} href="#">
               All time
             </a>
           </div>
@@ -23,7 +24,7 @@ const Earners = () => {
       {Items.map((item,index) => (
         <div>
             <ListItem index={index} {...item}/>
-            {index < Items.length-1? <hr className={classes.divider} /> : null}
+            {index < Items.length-1? <hr className={globals.divider} /> : null}
         </div>
       ))}
     </div>

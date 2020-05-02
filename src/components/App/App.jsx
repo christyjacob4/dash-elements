@@ -1,18 +1,18 @@
 import React from "react";
-import Rank from "./Rank";
-import SuggestedProjectCard from "./SuggestedProjectCard";
-import Banner from "./Banner";
-import classes from "../styles/BaseStyles.module.css";
-import Navbar from "./Navbar";
-import Earners from "./Earners";
-import { CardItems } from "./data";
-import Earnings from "./Earnings";
-import Recent from "./Recent";
+import Rank from "../Rank/Rank";
+import SuggestedProjectCard from "../SuggestedProjectCard/SuggestedProjectCard";
+import Banner from "../Banner/Banner";
+import globals from "../../styles/BaseStyles.module.css";
+import Navbar from "../Navbar/Navbar";
+import Earners from "../Earners/Earners";
+import { CardItems } from "../data";
+import Earnings from "../Earnings/Earnings";
+import Recent from "../Recent/Recent";
 
 const App = (props) => {
   return (
     <div>
-      <div className={`${classes.headerBg} position-absolute`}></div>
+      <div className={`${globals.headerBg} position-absolute`}></div>
 
       <div className="container">
         {/* NAVBAR STARTS */}
@@ -34,12 +34,12 @@ const App = (props) => {
         <section class="mt-lg-5">
 
           <div className={`row justify-content-between align-items-baseline no-gutters mb-4`}>
-            <p className={classes.heading}>Suggested Projects</p>
+            <p className={globals.heading}>Suggested Projects</p>
             <div class="row no-gutters">
-              <a href="#" className={`${classes.sectionHeader} mr-2`}>
+              <a href="#" className={`${globals.sectionHeader} mr-2`}>
                 VIEW ALL PROJECTS
               </a>
-              <img src="assets/chevron_arrow.svg" alt="" className={classes.sectionHeader}/>
+              <img src="assets/chevron_arrow.svg" alt="" className={globals.sectionHeader}/>
             </div>
           </div>
 
@@ -54,25 +54,24 @@ const App = (props) => {
         {/* Second Row ENDS*/}
 
         {/* Banner */}
-        {/* <div class="row no-gutters mt-lg-5 mt-3">
-          <div class="col-12 mb-4 mb-lg-0">
+        <div class="row mt-lg-5 mt-3 mb-4 mb-lg-0">
+          <div class="col-12">
             <Banner />
           </div>
-        </div> */}
+        </div>
         {/* Banner ENDS */}
 
         {/* Third Row */}
-        {/* <section class="mt-lg-5">
+        <section class="mt-lg-5">
           <div class="row">
-            
-            <div class="col-lg-8 col-md-6">
+            <div class="col-lg-8 col-12">
               <div
-                className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}
+                className={`row justify-content-between align-items-center no-gutters pb-3`}
               >
-                <h1 name="">Activity</h1>
+                <p className={globals.heading}>Activity</p>
 
                 <div class="row no-gutters">
-                  <a href="#" class="mr-2">
+                  <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL ACTIVITY
                   </a>
                   <img src="assets/chevron_arrow.svg" alt="" />
@@ -82,13 +81,13 @@ const App = (props) => {
             </div>
 
             
-            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="col-lg-4 col-12 mt-4 mt-lg-0">
               <div
-                className={`row justify-content-between align-items-center no-gutters ${classes.sectionHeader} pb-3`}
+                className={`row justify-content-between align-items-center no-gutters ${globals.sectionHeader} pb-3`}
               >
-                <h1 name="">Top Earners</h1>
+                <p className={globals.heading}>Top Earners</p>
                 <div class="row no-gutters">
-                  <a href="#" class="mr-2">
+                  <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL
                   </a>
                   <img src="assets/chevron_arrow.svg" alt="" />
@@ -97,15 +96,15 @@ const App = (props) => {
               <Earners />
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Third Row ENDS */}
 
         {/* Footer */}
-        {/* <footer class="footer mt-auto py-5">
+        <footer class="footer mt-auto py-5">
           <div class="container text-center">
             <span class="text-muted">Made with love by Christy</span>
           </div>
-        </footer> */}
+        </footer>
         {/* Footer ENDS */}
       </div>
     </div>

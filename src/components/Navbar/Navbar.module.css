@@ -1,0 +1,29 @@
+
+/** Navbar Styles **/
+nav > div > ul > li > a,
+nav > div > ul > li > a:hover {
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+nav > div > ul > li > a:focus {
+  font-weight: 700;
+  border-radius: 17px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+nav > a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+nav .collapseButton {
+  border : none;
+}

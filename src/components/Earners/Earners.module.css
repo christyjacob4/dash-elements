@@ -1,0 +1,27 @@
+/* Top Earners card */
+  
+.thisMonth,
+.thisMonth:hover {
+font-size: 12px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #79828b;
+margin: 0px;
+text-decoration: none;
+}
+  
+.allTime,
+.allTime:hover {
+font-size: 12px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #6271d2;
+margin: 0px;
+text-decoration: none;
+}

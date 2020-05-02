@@ -5,7 +5,7 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './index.css';
-import App from './components/App';
+import App from './components/App/App';
 import * as serviceWorker from './serviceWorker';
 
 

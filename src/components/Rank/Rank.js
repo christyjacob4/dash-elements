@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "../styles/BaseStyles.module.css";
+import classes from "../../styles/BaseStyles.module.css";
 
 const Rank = (props) => {
   return (
-    <div className={`${classes.card} ${classes.rankCard} p-3 p-lg-4`}>
+    <div className={`${classes.card} ${classes.rankCard} p-3 p-md-4`}>
       <div className={"row no-gutters"}>
         <div className={"col mr-auto"}>
           <p className={`${classes.title}`}>RANK</p>

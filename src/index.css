@@ -24,4 +24,5 @@ code {
   --card-title-fw: 500;
   --card-emphasis-fw: 800;
   --chip-fw: 500;
+  --avatar-image-size : 48px;
 }
