@@ -12,7 +12,6 @@
     "jquery": "3.2.1",
     "popper.js": "1.12.9",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },

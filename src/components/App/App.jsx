@@ -66,7 +66,7 @@ const App = (props) => {
           <div class="row">
             <div class="col-lg-8 col-12">
               <div
-                className={`row justify-content-between align-items-center no-gutters pb-3`}
+                className={`row justify-content-between align-items-baseline no-gutters pb-3`}
               >
                 <p className={globals.heading}>Activity</p>
 
@@ -83,7 +83,7 @@ const App = (props) => {
             
             <div class="col-lg-4 col-12 mt-4 mt-lg-0">
               <div
-                className={`row justify-content-between align-items-center no-gutters ${globals.sectionHeader} pb-3`}
+                className={`row justify-content-between align-items-baseline no-gutters ${globals.sectionHeader} pb-3`}
               >
                 <p className={globals.heading}>Top Earners</p>
                 <div class="row no-gutters">
@@ -102,7 +102,10 @@ const App = (props) => {
         {/* Footer */}
         <footer class="footer mt-auto py-5">
           <div class="container text-center">
-            <span class="text-muted">Made with love by Christy</span>
+            <span class="text-muted">Made with <span className="text-danger">❤</span> using React and Bootstrap.</span>
+          </div>
+          <div class="container text-center">
+            <span class="text-muted">Copyright © 2020 Christy Jacob</span>
           </div>
         </footer>
         {/* Footer ENDS */}

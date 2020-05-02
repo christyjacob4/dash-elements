@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="23px" viewBox="0 0 19 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>notification</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(-1106.000000, -43.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Header">
+                <g id="notification" transform="translate(1106.000000, 27.000000)">
+                    <path d="M9.5,39 C10.80625,39 11.875,37.9384615 11.875,36.6410256 L7.125,36.6410256 C7.125,37.9384615 8.181875,39 9.5,39 Z M16.625,31.9230769 L16.625,26.025641 C16.625,22.4046154 14.6775,19.3733333 11.28125,18.5712821 L11.28125,17.7692308 C11.28125,16.7902564 10.485625,16 9.5,16 C8.514375,16 7.71875,16.7902564 7.71875,17.7692308 L7.71875,18.5712821 C4.310625,19.3733333 2.375,22.3928205 2.375,26.025641 L2.375,31.9230769 L0,34.2820513 L0,35.4615385 L19,35.4615385 L19,34.2820513 L16.625,31.9230769 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
