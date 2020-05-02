@@ -74,7 +74,7 @@ const App = (props) => {
                   <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL ACTIVITY
                   </a>
-                  <img src="assets/chevron_arrow.svg" alt="" />
+                  <img src="assets/chevron_arrow.svg" alt="" className={globals.sectionHeader}/>
                 </div>
               </div>
               <Recent/>
@@ -90,7 +90,7 @@ const App = (props) => {
                   <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL
                   </a>
-                  <img src="assets/chevron_arrow.svg" alt="" />
+                  <img src="assets/chevron_arrow.svg" alt="" className={globals.sectionHeader}/>
                 </div>
               </div>
               <Earners />
