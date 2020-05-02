@@ -55,4 +55,34 @@ const CardItems = [
     
 ]
 
-export { Items, CardItems};
+const RecentItems = [
+  {
+    name : "Daniel Belu",
+    description : "Recieved $760 for a Ruby project.",
+    time: "1 hour ago",
+    eth : "1.2 ETH",
+    price : "760",
+    avatar : "assets/avatar_daniel.svg",
+    secondary : "assets/dollar_icon.svg"
+  },
+  {
+    name : "Christophe F. Batista",
+    description : "Received  $620 for an html project.",
+    time: "3 hours ago",
+    bit : "0.2 BTC",
+    price : "620",
+    avatar : "assets/avatar_arosuh.svg",
+    secondary : "assets/dollar_icon.svg"
+  },
+  {
+    name : "Alice Martin",
+    description : "Submitted a project in html.",
+    time: "5 hours ago",
+    bit : "0.3 BTC",
+    price : "760",
+    avatar : "assets/avatar_one.svg",
+    secondary : "assets/code_icon.svg"
+  }
+]
+
+export { Items, CardItems, RecentItems};

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>project</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(-185.000000, -1406.000000)">
+            <g id="Activity" transform="translate(165.000000, 1051.000000)">
+                <g id="project" transform="translate(24.000000, 359.000000)">
+                    <circle id="Oval-6-Copy-2" stroke="#FFFFFF" stroke-width="3.42857143" fill="#EFF0FA" cx="16" cy="16" r="17.7142857"></circle>
+                    <path d="M7.03257143,16.3154286 L13.7034286,13.2251429 L13.7034286,14.4731429 L8.53314286,16.8057143 L13.7034286,19.1382857 L13.7034286,20.416 L7.03257143,17.3257143 L7.03257143,16.3154286 Z M16.1251429,21.8571429 L14.788,21.8571429 L18.1605714,10.952 L19.4977143,10.952 L16.1251429,21.8571429 Z M20.5822857,19.1531429 L25.7228571,16.8502857 L20.5822857,14.488 L20.5822857,13.2251429 L27.2531429,16.3154286 L27.2531429,17.3257143 L20.5822857,20.416 L20.5822857,19.1531429 Z" id="&lt;/&gt;" fill="#6271D2" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

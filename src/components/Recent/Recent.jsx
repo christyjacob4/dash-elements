@@ -1,6 +1,8 @@
 import React from "react";
 import globals from "../../styles/BaseStyles.module.css";
 import { ListItemDetail } from "../ListItem/ListItem";
+import { RecentItems } from "../data";
+
 
 const Recent = () => {
   return (
@@ -11,9 +13,9 @@ const Recent = () => {
         </div>
       </header>
 
-      <ListItemDetail/>
-      <ListItemDetail/>
-      <ListItemDetail/>
+      {RecentItems.map((item, index) => 
+          <ListItemDetail  {...item} />
+        )}
 
     </div>
   );

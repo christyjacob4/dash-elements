@@ -26,7 +26,7 @@ img.avatar {
   width: var(--avatar-image-size);
 }
 
-img.paid {
+img.secondary {
   height: 32px;
   width: 32px;
   margin-right: -6px;

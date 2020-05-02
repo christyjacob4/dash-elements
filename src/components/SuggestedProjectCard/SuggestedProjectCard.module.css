@@ -1,8 +1,8 @@
 /** Suggested Projects Card **/
 
 img.avatar {
-  width: 48px;
-  height: 48px;
+  width: var(--avatar-image-size);
+  height: var(--avatar-image-size);
 }
 
 p.name {
