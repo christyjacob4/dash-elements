@@ -1,21 +1,48 @@
+
+<h1 align="center">Dash Elements 🤖</h1>
+<p align = center>
+    <img alt="Project Logo" src="https://image.flaticon.com/icons/svg/1035/1035688.svg" target="_blank" width = 120 height = 120 />
+</p>
+
+<p align="center">
+
+<img alt="Android" src="https://img.shields.io/badge/platform-react-brightgreen?style=for-the-badge&logo=react" target="_blank" />
+
+  <img alt="Latest Commit" src="https://img.shields.io/github/last-commit/christyjacob4/dash-elements?logo=git&style=for-the-badge" target="_blank" />
+
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-success?style=for-the-badge&logo=coderwall" target="_blank" />
+
+  <a href="https://github.com/christyjacob4/dash-elements/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-success.svg?style=for-the-badge&logo=gitter" target="_blank" />
+  </a>
+
+  <a href="https://twitter.com/christyjacob4">
+    <img alt="Twitter: Christy Jacob" src="https://img.shields.io/twitter/follow/christyjacob4?label=Follow%20%40christyjacob4&style=for-the-badge&logo=twitter" target="_blank" />
+  </a>
+</p>
+<h3 align="center">A responsive static site template made with React and Bootstrap. </h3>
+
+
+## 🚀 Usage
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+* ### Clone the repository
+```sh
+git clone https://github.com/christyjacob4/dash-elements
+cd dash-elements
+```
 
-In the project directory, you can run:
+* ### Install dependencies
+```sh
+yarn
+```
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* ### Start developement Server
+```sh
+yarn start
+```
+Open http://localhost:3000 to view it in the browser.
 
 ### `yarn build`
 
@@ -27,42 +54,46 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ✨ Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+    <img alt = "Attach Screenshot"src="Screenshots/s1.png" width="1000">
+    <img alt = "Attach Screenshot" src="Screenshots/s2.png" width="1000">
+    <img alt = "Attach Screenshot" src="Screenshots/s4.png" width="400">
+    <img alt = "Attach Screenshot" src="Screenshots/s5.png" width="400">
+    <img alt = "Attach Screenshot" src="Screenshots/s3.png" width="400">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📖 Features
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [x] Responsive Design
+- [x] React Components
+- [x] Line Chart 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🍻 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues and feature requests are welcome.<br />
+Feel free to check [issues page](https://github.com/christyjacob4/dash-elements/issues) if you want to contribute.
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 👤 Author
 
-### Analyzing the Bundle Size
+**Christy Jacob**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Twitter: [@christyjacob4](https://twitter.com/christyjacob4)
+- Github: [@christyjacob4](https://github.com/christyjacob4)
 
-### Making a Progressive Web App
+## 🤝 Acknowledgements
+- Icons by [Flaticon](https://www.flaticon.com/)
+- Thanks to [Vishnu Prasad](https://www.uplabs.com/vlockn) for the amazing UI design
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 🙌 Show your support
 
-### Advanced Configuration
+Please ⭐️ this repository if this project helped you!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## 📝 License
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2019 [Christy Jacob](https://github.com/christyjacob4).<br />
+This project is [MIT](https://github.com/christyjacob4/dash-elements/blob/master/LICENSE) licensed.
