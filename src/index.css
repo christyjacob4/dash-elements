@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
 
 body {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,11 +9,6 @@ body {
   background-image: linear-gradient(139deg, #f5f7fa 1%, #f4f6f8 99%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 :root {
   --global_font: 'Poppins', sans-serif;
@@ -22,7 +17,7 @@ code {
   --chip-border-radius: 16px;
   --card-bg-color: #ffffff;
   --card-title-fw: 500;
-  --card-emphasis-fw: 800;
+  --card-emphasis-fw: 500;
   --chip-fw: 500;
   --avatar-image-size : 48px;
 }

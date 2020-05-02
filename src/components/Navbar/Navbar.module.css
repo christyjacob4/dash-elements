@@ -13,18 +13,12 @@ a.navbar-item:hover {
 }
 
 a.navbar-item:focus {
-  font-weight: 700;
+  opacity: 1.0;
+  font-weight: 600;
   border-radius: 50px;
   padding: 8px 20px 11px 20px;
   background-color: rgba(255, 255, 255, 0.15);
   outline: none;
-}
-
-
-.brand {
-  font-size: 20px;
-  font-weight: 300;
-  color: #ffffff;
 }
 
 .account {
@@ -37,9 +31,18 @@ a.navbar-item:focus {
   color: #ffffff;
 }
 
+.brand {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
 .brandStrong{
-  composes : brand;
-  font-weight: 800;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  opacity: 1.0;
 }
 
 .collapseButton,
@@ -57,7 +60,7 @@ a.navbar-item:focus {
   background: none;
 }
 
-img.brand {
+img.brandImage {
   height: 33px;
   width: 26px;
 }

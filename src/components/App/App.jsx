@@ -13,7 +13,7 @@ const App = (props) => {
   return (
     <div>
       <div className={`${globals.headerBg} position-absolute`}></div>
-
+      
       <div className="container">
         {/* NAVBAR STARTS */}
         <Navbar />
@@ -66,11 +66,11 @@ const App = (props) => {
           <div class="row">
             <div class="col-lg-8 col-12">
               <div
-                className={`row justify-content-between align-items-baseline no-gutters pb-3`}
+                className={`row align-items-baseline no-gutters pb-3`}
               >
                 <p className={globals.heading}>Activity</p>
 
-                <div class="row no-gutters">
+                <div class="row no-gutters ml-auto">
                   <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL ACTIVITY
                   </a>
@@ -83,10 +83,10 @@ const App = (props) => {
             
             <div class="col-lg-4 col-12 mt-4 mt-lg-0">
               <div
-                className={`row justify-content-between align-items-baseline no-gutters ${globals.sectionHeader} pb-3`}
+                className={`row align-items-baseline no-gutters ${globals.sectionHeader} pb-3`}
               >
                 <p className={globals.heading}>Top Earners</p>
-                <div class="row no-gutters">
+                <div class="row no-gutters ml-auto">
                   <a href="#" className={`${globals.sectionHeader} mr-2`}>
                     VIEW ALL
                   </a>

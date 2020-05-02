@@ -1,6 +1,6 @@
 .headerBg {
-  height: var(--header-height);
-  width: 100%;
+  width: 100vw;
+  height: 30vh;
   background-image: linear-gradient(247deg, #6a79dd 127%, #5866c3 -24%);
   z-index: -10;
   position: absolute;
@@ -39,7 +39,7 @@ p.emphasis {
 
 p.heading {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
