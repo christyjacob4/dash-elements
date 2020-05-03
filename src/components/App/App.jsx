@@ -40,7 +40,7 @@ const App = (props) => {
           <div className={`row justify-content-between align-items-baseline no-gutters mb-4`}>
             <p className={`${globals.heading} col-1 col-sm-auto`}>Suggested Projects</p>
             <div class="row no-gutters">
-              <a href="#" className={`${globals.sectionHeader} mr-2 col-auto`}>
+              <a href="#" className={`${globals.sectionHeader} mr-2`}>
                 VIEW ALL PROJECTS
               </a>
               <img src="assets/chevron_arrow.svg" alt="" className={globals.sectionHeader}/>
