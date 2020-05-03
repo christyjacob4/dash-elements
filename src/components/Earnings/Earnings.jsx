@@ -5,7 +5,7 @@ import LineChart from "../LineChart/LineChart";
 
 const Earnings = () => {
   return (
-    <div className={`${global.card} ${global.earningsCard} p-3 p-md-4`}>
+    <div className={`${global.card} p-3 p-md-4`}>
       <div className="row no-gutters">
         <p className={global.title}>EARNINGS</p>
       </div>
@@ -33,7 +33,7 @@ const Earnings = () => {
         </div>
 
         {/* Right column */}
-        <div className={"col-12 col-lg-9 mt-1 mt-lg-0"}>
+        <div className={`col-12 col-lg-9 mt-2 mt-lg-0 ${styles.chartContainer}`}>
           <LineChart />
         </div>
       </div>

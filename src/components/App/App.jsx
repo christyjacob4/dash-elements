@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Rank from "../Rank/Rank";
 import SuggestedProjectCard from "../SuggestedProjectCard/SuggestedProjectCard";
 import Banner from "../Banner/Banner";
@@ -10,6 +10,10 @@ import Earnings from "../Earnings/Earnings";
 import Recent from "../Recent/Recent";
 
 const App = (props) => {
+  useEffect(() => {
+    document.title = "Dash Elements"
+  }, []);
+
   return (
     <div>
       <div className={`${globals.headerBg} position-absolute`}></div>

@@ -8,3 +8,9 @@ span.delta{
     color: #10c176;
 }
   
+
+@media (max-width: 991.98px) { 
+    .chartContainer {
+        height : 220px;
+    }
+}
