@@ -38,9 +38,9 @@ const App = (props) => {
         <section class="mt-lg-5">
 
           <div className={`row justify-content-between align-items-baseline no-gutters mb-4`}>
-            <p className={globals.heading}>Suggested Projects</p>
+            <p className={`${globals.heading} col-1 col-sm-auto`}>Suggested Projects</p>
             <div class="row no-gutters">
-              <a href="#" className={`${globals.sectionHeader} mr-2`}>
+              <a href="#" className={`${globals.sectionHeader} mr-2 col-auto`}>
                 VIEW ALL PROJECTS
               </a>
               <img src="assets/chevron_arrow.svg" alt="" className={globals.sectionHeader}/>
