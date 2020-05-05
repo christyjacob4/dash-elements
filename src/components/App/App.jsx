@@ -111,7 +111,13 @@ const App = (props) => {
           <div class="container text-center">
             <span class="text-muted">Copyright © 2020 Christy Jacob</span>
           </div>
-        </footer>
+          <div className="row justify-content-center mt-2 align-content-between">
+            <a class="mr-2" href="https://github.com/christyjacob4/dash-elements"><img src="https://img.shields.io/github/stars/christyjacob4/dash-elements?color=green&logo=github&style=flat" alt=""/></a>
+            <a class="mr-2" href="https://reactjs.org/"><img src="https://img.shields.io/static/v1?label=React&message=16.13.1&color=61DAFB&logo=react&style=flat" alt=""/></a>
+            <a class="mr-2" href="https://getbootstrap.com/"><img src="https://img.shields.io/static/v1?label=Bootstrap&message=4.4.1&color=563D7C&logo=Bootstrap&style=flat" alt=""/></a>
+            <a href="https://app.netlify.com/sites/peaceful-wilson-d0b275/deploys"><img src="https://api.netlify.com/api/v1/badges/3859e702-6a11-46d6-8faf-7a3f3096c637/deploy-status" alt=""/></a>
+          </div>
+         </footer>
         {/* Footer ENDS */}
       </div>
     </div>
